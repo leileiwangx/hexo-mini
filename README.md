@@ -42,10 +42,6 @@ $ npm install hexo-cli -g
 ```
 
 ## Modification
-_config.yml
-line 15: url:https://wangleileichina.github.io
-line 17: permalink: p/:title.html
-
 hexo-generator-search/lib/xml_generator.js
 line 45:rootURL = "../../";
 
