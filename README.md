@@ -41,6 +41,16 @@ Once all the requirements are installed, we can install Hexo with npm:
 $ npm install hexo-cli -g
 ```
 
+## Modification
+_config.yml
+line 15: url:https://wangleileichina.github.io
+line 17: permalink: p/:title.html
+
+hexo-generator-search/lib/xml_generator.js
+line 45:rootURL = "../../";
+
+comment highlight.js line 543 - 552
+
 ## Usage
 Generate static files and start a local server:
 ```bash
