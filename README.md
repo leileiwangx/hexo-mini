@@ -39,6 +39,7 @@ Under hexo-site, install the required packages in package.json:
 Once all the requirements are installed, we can install Hexo with npm:
 ```bash
 $ npm install hexo-cli -g
+$ npm install
 ```
 
 ## Modification
